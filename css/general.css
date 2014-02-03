@@ -83,6 +83,10 @@ article {
     overflow: hidden; /* Forces parent to wrap around its child */
 }
 
+article li {
+    line-height: 1.5rem; 
+}
+
 h1 {
     margin: 1.5rem 0;
     font-size: 5rem;
@@ -94,7 +98,9 @@ h1 + p {
     font-weight: bold;
 } 
 
-p {
+p,
+ol,
+ul {
     line-height: 1.5rem;
     margin: 0 0 1.5rem
 }
